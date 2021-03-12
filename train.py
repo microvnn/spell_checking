@@ -37,6 +37,7 @@ training_data = []
 for f in files:
     print(f'read : {f}')
     training_data += [s.strip() for s in readlines(f)]
+    # break
 
 print(f'Total phrase: {len(training_data)}')
 #print(training_data[0])
